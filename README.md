@@ -27,3 +27,16 @@ Console.WriteLine(dt.ElapsedTime());
 
 <strong>"4.5 hours"<br>
 "3.2 days"</strong>
+
+### Extension Methods - Cut(int)
+
+#### Let's create an extension method called Cut(int) for the String class that takes an integer as a parameter and returns a substring of the original string with the specified length.
+
+#### For example:
+
+``` C#
+String s1 = "Good morning dear students!";
+Console.WriteLine(s1.Cut(10));
+```
+
+<strong>"Good morni..."</strong>
