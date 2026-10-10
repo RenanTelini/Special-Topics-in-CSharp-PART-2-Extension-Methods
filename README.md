@@ -13,3 +13,17 @@
 - Create a static class.
 - Inside the class, create a static method.
 - The first parameter of the method must have the this keyword as a prefix, followed by the declaration of a parameter of the type you want to extend. This parameter will be a reference to the object itself.
+
+### Extension Methods - ElapsedTime()
+
+#### Let's create an extension method called ElapsedTime() for the DateTime struct that displays the elapsed time in hours (if less than 24 hours) or days otherwise.
+
+#### For example:
+
+``` C#
+DateTime dt = new DateTime(2018, 11, 16, 8, 10, 45);
+Console.WriteLine(dt.ElapsedTime());
+```
+
+<strong>"4.5 hours"<br>
+"3.2 days"</strong>
